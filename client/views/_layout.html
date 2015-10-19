@@ -1,0 +1,21 @@
+<template name="defaultLayout">
+    <body class="fixed-header">
+        {{ >sideBar }}
+        <!-- START PAGE-CONTAINER -->
+        <div class="page-container">
+            {{ >header }}
+            <!-- START PAGE CONTENT WRAPPER -->
+            <div class="page-content-wrapper">
+                <!-- START PAGE CONTENT -->
+                <div class="content">
+                    {{>yield}}
+                </div>
+                {{ >footer }}
+            </div>
+        </div>
+        {{ >quickView }}
+        {{ >overlaySearch }}
+    </body>
+</template>
+
+

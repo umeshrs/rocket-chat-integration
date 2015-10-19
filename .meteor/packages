@@ -3,6 +3,18 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
+# -----------------------------------
+# packages from pages admin dashboard
+# -----------------------------------
+autopublish
+insecure
+mizzao:bootstrap-3
+gromo:jquery.scrollbar
+mrt:modernizr-meteor
+fortawesome:fontawesome
+revox:pages-core
+# -----------------------------------
+
 accounts-facebook
 accounts-github
 accounts-google
